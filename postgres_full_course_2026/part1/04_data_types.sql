@@ -42,14 +42,33 @@ VALUES
     1200,
     24455.65,
     true
+),
+(
+
+    'product 2',
+    'product desc',
+    120,
+    1220,
+    22455.65,
+    false
+),
+(
+
+    'product 3',
+    'product desc',
+    300,
+    1300,
+    23455.65,
+    true
 );
+
 
 
 SELECT * FROM basics.products_basic;
 
 SELECT id, name, price, is_active
 FROM basics.products_basic
-WHERE is_active;
+WHERE is_active IS false;
 
 
 
