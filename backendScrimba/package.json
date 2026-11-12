@@ -1,11 +1,12 @@
 {
-  "name": "backendrt",
+  "name": "backendScrimba",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type":"module",
   "scripts": {
-    "01": "tsx src/01-basic-http-server.ts",
-    "02": "tsx src/02-routing.ts"
+    "start": "node server.js"
+    
 
   },
   "keywords": [],
