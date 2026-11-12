@@ -10,7 +10,12 @@ SELECT
     title,
     status,
     views
-FROM 
+FROM post table
+WHERE views > (
+    SELECT AVG(views)
+    FROM posts 
+)
+ORDER BY views DESC;
 
 
 
